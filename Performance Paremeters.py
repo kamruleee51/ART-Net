@@ -88,10 +88,10 @@ lfn=[]
 for i in range(len(Tr)):
     IoU, ConfusionMatrix=compute_iou(Pr[i],Tr[i])
     IU.append(IoU)
-    TP = ConfusionMatrix[0][0]
+    TN = ConfusionMatrix[0][0]
     FP = ConfusionMatrix[0][1]
     FN = ConfusionMatrix[1][0]
-    TN = ConfusionMatrix[1][1]
+    TP = ConfusionMatrix[1][1]
     ltp.append(TP)
     ltn.append(TN)
     lfp.append(FP)
