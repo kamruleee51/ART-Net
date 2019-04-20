@@ -1,5 +1,5 @@
 # Surgical-Tool-Segmentation
-In this project, Surgical tools will be segmented using deep learning for the 3D pose estimation. 
+In this project, we present single input multiple output deep convolution neural network (SIMO-DCNN) to get concurrent output which can be trained in an end-to-end fashion. We have added two types of skip connection in traditional encoder-decoder network to get precise segmentation and geometric features since exact 3D pose of the surgical instruments depends on geometric features in our approach.
 ## Written by-
 ### Md. Kamrul Hasan 
 ### Erasmus Scholar on Medical Imaging and Application (MAIA) [http://maiamaster.udg.edu/]
