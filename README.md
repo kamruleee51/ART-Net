@@ -1,4 +1,4 @@
-# SIMO-DCNN-for-3D-Pose-and-Segmentation-of-Surgical-Tool
+# 3D-Pose-and-Segmentation-for-AR-in-MIS
 In this project, we present single input multiple output deep convolution neural network (SIMO-DCNN) to get concurrent output which can be trained in an end-to-end fashion. We have added two types of skip connection in traditional encoder-decoder network to get precise segmentation and geometric features since exact 3D pose of the surgical instruments depends on geometric features in our approach.
 ## Written by-
 ### Md. Kamrul Hasan 
