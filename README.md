@@ -1,5 +1,9 @@
 # 3D-Pose-and-Segmentation-for-AR-in-MIS
-In this project, we present single input multiple output deep convolution neural network (SIMO-DCNN) to get concurrent output which can be trained in an end-to-end fashion. We have added two types of skip connection in traditional encoder-decoder network to get precise segmentation and geometric features since exact 3D pose of the surgical instruments depends on geometric features in our approach.
+In this project, we present deep convolution neural network (DCNN) for simultaneouslygetting surgical instrument segmentation and geometric features for 3D pose estimation tosolve the current ambiguities of AR based application in MIS. Additionally, we add detectionsub-network to our SIMO-DCNN to get the tool flag.  Tool flag will provide the constrain ofestimating pose or not.  The proposed network with different responsible sub-networks hasbeen trained in an end-to-end fashion and each sub-network of the SIMO-DCNN has dif-ferent loss functions to get responsible output.  We validate our proposed approach on bothex-vivoandin-vivolaparoscopic images where we are able to reach improved results overexisting state-of-the-art approaches on the same dataset. The geometric features obtainedfrom the proposed SIMO network are used to estimate the 3D pose of surgical instrumentsby geometric solver.
+
+
+
+
 #### Written by-
 #### Md. Kamrul Hasan 
 #### Erasmus Scholar on Medical Imaging and Application (MAIA) [http://maiamaster.udg.edu/]
