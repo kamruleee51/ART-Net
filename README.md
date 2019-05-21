@@ -6,6 +6,10 @@ Figure: The pipeline of the proposed framework for concurrent detection, segment
 
 The pictorial presentation of overall pipeline that has been accomplished is shown in above figure.  Firstly, input images are feed to CRB block which is a bunch of convolution  and relu activation  with  sub-sampling  and  is  shared  by  all  others  sub-networks for detection, segmentation and regression simultaneously.  FCS is the fully connected layer followed by the softmax classifier that provides the information about the tool presence in the image frame and termed as detection sub-network. If the detected tool flag is yes from the detection sub-network, the pose of the surgical tool will be estimated and vice-versa. DRBS named as segmentation sub-network and DRB named as regression sub-network are the bunch deconvolution for semantic tissue or instrument pixels labelling and the regression to get three geometric features for pose estimation respectively.  
 
+# Annotation pipeline
+For the annotation, we use ImageJ software and basic image processing methods. Firstly, the ROI of the tool is selected from ImageJ software and then below block diagram has been used to get binary mask of the surgical tool. 
+![annotation](https://user-images.githubusercontent.com/32570071/58098941-dc435d00-7bda-11e9-8845-1f16a9945198.JPG)
+
 #### Written by-
 #### Md. Kamrul Hasan 
 #### Erasmus Scholar on Medical Imaging and Application (MAIA) [http://maiamaster.udg.edu/]
