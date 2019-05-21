@@ -9,7 +9,13 @@ The pictorial presentation of overall pipeline that has been accomplished is sho
 # Annotation pipeline
 For the annotation, we use ImageJ software and basic image processing methods. Firstly, the ROI of the tool is selected from ImageJ software and then below block diagram has been used to get binary mask of the surgical tool. 
 ![annotation](https://user-images.githubusercontent.com/32570071/58098941-dc435d00-7bda-11e9-8845-1f16a9945198.JPG)
-Simultaneously, during the ROI selection, five point are selected and extracted as CSV and then basic image processing methods has been used to create the edge-line, mid-line and tip-point. the example of our annotated image along with corresponding binary mask, edge-line, mid-line and tip-point is shown below.
+
+Simultaneously, during the ROI selection, five points are selected and extracted as CSV and then basic image processing methods has been used to create the edge-line, mid-line and tip-point. The selected five points are presented below.
+
+![Point Selection](https://user-images.githubusercontent.com/32570071/58100378-ce430b80-7bdd-11e9-93bd-b573ca924951.jpg)
+
+
+The example of our annotated image along with corresponding binary mask, edge-line, mid-line and tip-point is shown below.
 ![Annotated Geometric Features](https://user-images.githubusercontent.com/32570071/58099671-6b04a980-7bdc-11e9-83b4-c680de96beba.png)
 
 #### Written by-
