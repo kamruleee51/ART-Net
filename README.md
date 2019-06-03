@@ -1,5 +1,5 @@
 ## Detection, Segmentation, and 3D Pose Estimation of Surgical Tools Using Deep Convolutional Neural Networks and Algebraic Geometry
-#### The directroy tree of this repository is given below-
+#### The directory tree of this repository is given below-
 
 ![DirectoryTreeDiagram](https://user-images.githubusercontent.com/32570071/58830739-492f0c00-864b-11e9-96ec-18dc0f05e404.png)
 
