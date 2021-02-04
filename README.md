@@ -44,6 +44,8 @@ Md. Kamrul Hasan
 
 Former research intern at [EnCoV](http://igt.ip.uca.fr/encov/) research team, France
 
-Former Erasmus Scholar on Medical Imaging and Application ([MAIA](http://maiamaster.udg.edu/))
+Former Erasmus Scholar on Medical Imaging and Applications ([MAIA](http://maiamaster.udg.edu/))
 
 For more details write me at kamruleeekuet@gmail.com
+
+Google Scholar https://scholar.google.com/citations?user=36WXELIAAAAJ&hl=en
