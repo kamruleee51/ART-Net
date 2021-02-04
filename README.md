@@ -1,7 +1,8 @@
-## Detection, Segmentation, and 3D Pose Estimation of Surgical Tools Using Deep Convolutional Neural Networks and Algebraic Geometry
+## [Detection, Segmentation, and 3D Pose Estimation of Surgical Tools Using Deep Convolutional Neural Networks and Algebraic Geometry](http://github.com)
 #### The directory tree of this repository is given below-
 
 ![DirectoryTreeDiagram](https://user-images.githubusercontent.com/32570071/58830739-492f0c00-864b-11e9-96ec-18dc0f05e404.png)
+
 
 
 In this project, we have proposed ART-Net for segmenting the laparoscopic images to get surgical instrument mask and extracting the geometric features simultaneously. The 3D pose of the surgical instrument is a function of instrument physical properties like diameter and head length which are very diverse for clinical applications. To make more generic network which should be irrespective of tool's physical properties, we divide the 3D pose estimation of the surgical instrument into two parts such as geometric features extraction from responsible sub-network of ART-Net and the algebraic geometric solution. Finally, the accurate 3D instrument pose is estimated by geometric solver using the features from the proposed ART-Net and known instrument's physical properties. The 3D pose from our approach is then used for solving the current ambiguities of AR applications in MIS. Additionally, we add detection sub-network to our proposed ART-Net to detect the tool present in the input laparoscopic image frame which helps to decide for estimating pose or not. The proposed network with different responsible sub-networks has been trained in an end-to-end fashion and each sub-network of the ART-Net has different loss functions to get responsible output. We validate our proposed approach on both ex-vivo and in-vivo laparoscopic images where we are able to reach improved results over existing state-of-the-art approaches on the same dataset. <br>
