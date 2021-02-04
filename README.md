@@ -32,3 +32,4 @@ For the annotation, we have used ImageJ software and basic image processing meth
 Five points are selected and extracted as CSV together with the ROI selection from the ImageJ software, and then basic image processing methods are used to generate the edge-line, mid-line, and tip-point. The selected five points are displayed as:
 <img src="https://user-images.githubusercontent.com/32570071/58100378-ce430b80-7bdd-11e9-93bd-b573ca924951.jpg" width="700" height="290" />
 
+Those 5 points are utilized to generate three geometric primitives applying a simple python script. The primitives hold an intensity of bell-shaped Gaussian distribution.  
