@@ -12,3 +12,5 @@ These primitives are the tool edge-lines, mid-line, and tip. They allow the tool
 We compare the segmentation results against several variants of the Fully Convolutional Network (FCN) and U-Net. Several ablation studies are provided for detection, segmentation, and geometric primitive extraction.
 The proposed datasets are surgery videos of different patients.
 
+However, more details can be found in the article ([here](http://github.com)) in Medical Image Analysis (Elsevier).  
+
