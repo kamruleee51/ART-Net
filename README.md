@@ -14,3 +14,21 @@ The proposed datasets are surgery videos of different patients.
 
 However, more details can be found in the article ([here](http://github.com)) in Medical Image Analysis (Elsevier).  
 
+## Network Training
+Two stages of training and testing were used (section 4.2 of [article](http://github.com) presents details). In the first stage, referred to as stage-1, we trained and tested only the segmentation sub-network of ART-Net on the EndoVis (robotic) dataset, whereas in the second stage, referred to as stage-2, we trained and tested the whole ART-Net on the combined EndoVis (non-robotic) and our annotated data.
+The following three sets of datasets are utilized in this [article](http://github.com). 
+
+* EndoVis (robotic) dataset (can be found [here](https://endovissub-instrument.grand-challenge.org/Data/))
+* EndoVis (non-robotic) dataset (can be found [here](https://endovissub-instrument.grand-challenge.org/Data/))
+* Our proposed dataset (can be found [here](https://forms.gle/BhavnSx55fa8zocj9))
+
+## Data Annotation 
+We annotated the tool presence, the segmentation masks, and the geometric primitives for the laparoscopy images, as pictured in the following figure. 
+![Annotated Geometric Features](https://user-images.githubusercontent.com/32570071/58099671-6b04a980-7bdc-11e9-83b4-c680de96beba.png)
+
+For the annotation, we have used ImageJ software and basic image processing methods. Firstly, the tool's ROIs are selected from ImageJ software, and then the following block diagram has been used to get the surgical tools' binary masks.
+<img src="https://user-images.githubusercontent.com/32570071/58098941-dc435d00-7bda-11e9-8845-1f16a9945198.JPG" width="700" height="290" />
+
+Five points are selected and extracted as CSV together with the ROI selection from the ImageJ software, and then basic image processing methods are used to generate the edge-line, mid-line, and tip-point. The selected five points are displayed as:
+<img src="https://user-images.githubusercontent.com/32570071/58100378-ce430b80-7bdd-11e9-93bd-b573ca924951.jpg" width="700" height="290" />
+
