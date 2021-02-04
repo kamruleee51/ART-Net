@@ -18,7 +18,7 @@ For the annotation, we have used ImageJ software and basic image processing meth
 
 Simultaneously, during the ROI selection, five points are selected and extracted as CSV and then basic image processing methods has been used to create the edge-line, mid-line and tip-point. The selected five points are presented below.
 
-![Point Selection](https://user-images.githubusercontent.com/32570071/58100378-ce430b80-7bdd-11e9-93bd-b573ca924951.jpg)
+<img src="https://user-images.githubusercontent.com/32570071/58100378-ce430b80-7bdd-11e9-93bd-b573ca924951.jpg" width="700" height="290" />
 
 
 The example of our annotated image along with corresponding binary mask, edge-line, mid-line and tip-point is shown below.
