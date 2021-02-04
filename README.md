@@ -39,4 +39,11 @@ Our annotated dataset is made publicly available for research or academic purpos
 
 If you access our dataset, do not forget to cite the article in the [link](http://github.com).
 
+#### Written by-
+Md. Kamrul Hasan
 
+Former research intern at [EnCoV](http://igt.ip.uca.fr/encov/) research team, France
+
+Former Erasmus Scholar on Medical Imaging and Application ([MAIA](http://maiamaster.udg.edu/))
+
+For more details write me at kamruleeekuet@gmail.com
