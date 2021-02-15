@@ -1,4 +1,4 @@
-## [Detection, Segmentation, and 3D Pose Estimation of Surgical Tools Using Deep Convolutional Neural Networks and Algebraic Geometry](http://github.com)
+## [Detection, Segmentation, and 3D Pose Estimation of Surgical Tools Using Deep Convolutional Neural Networks and Algebraic Geometry](https://www.sciencedirect.com/science/article/abs/pii/S1361841521000402)
 
 This repository contains the source code, results, and annotation details of the proposed dataset for the concurrent detection, segmentation, and 3D pose estimation of surgical tools using deep convolutional neural networks and algebraic geometry. However, the directory tree of this repository is manifested as follows:
 
@@ -12,11 +12,11 @@ These primitives are the tool edge-lines, mid-line, and tip. They allow the tool
 We compare the segmentation results against several variants of the Fully Convolutional Network (FCN) and U-Net. Several ablation studies are provided for detection, segmentation, and geometric primitive extraction.
 The proposed datasets are surgery videos of different patients.
 
-However, more details can be found in the article ([here](http://github.com)) in Medical Image Analysis (Elsevier).  
+However, more details can be found in the article ([here](https://www.sciencedirect.com/science/article/abs/pii/S1361841521000402)) in Medical Image Analysis (Elsevier).  
 
 ## Network Training
-Two stages of training and testing were used (section 4.2 of [article](http://github.com) presents details). In the first stage, referred to as stage-1, we trained and tested only the segmentation sub-network of ART-Net on the EndoVis (robotic) dataset, whereas in the second stage, referred to as stage-2, we trained and tested the whole ART-Net on the combined EndoVis (non-robotic) and our annotated data.
-The following three sets of datasets are utilized in this [article](http://github.com). 
+Two stages of training and testing were used (section 4.2 of [article](https://www.sciencedirect.com/science/article/abs/pii/S1361841521000402) presents details). In the first stage, referred to as stage-1, we trained and tested only the segmentation sub-network of ART-Net on the EndoVis (robotic) dataset, whereas in the second stage, referred to as stage-2, we trained and tested the whole ART-Net on the combined EndoVis (non-robotic) and our annotated data.
+The following three sets of datasets are utilized in this [article](https://www.sciencedirect.com/science/article/abs/pii/S1361841521000402). 
 
 * EndoVis (robotic) dataset (can be found [here](https://endovissub-instrument.grand-challenge.org/Data/))
 * EndoVis (non-robotic) dataset (can be found [here](https://endovissub-instrument.grand-challenge.org/Data/))
@@ -37,7 +37,7 @@ Our annotated dataset is made publicly available for research or academic purpos
 
 [Registration for Accessing our ART-Net Dataset](https://forms.gle/BhavnSx55fa8zocj9)
 
-If you access our dataset, do not forget to cite the article in the [link](http://github.com).
+If you access our dataset, do not forget to cite the article in the [link](https://www.sciencedirect.com/science/article/abs/pii/S1361841521000402).
 
 #### Written by- <br>
 Md. Kamrul Hasan <br>
