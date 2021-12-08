@@ -37,6 +37,12 @@ Our annotated dataset is made publicly available for research or academic purpos
 
 [Registration for Accessing our ART-Net Dataset](https://forms.gle/BhavnSx55fa8zocj9)
 
+Then, the annotated dataset can be found in the following link. 
+
+[ART-Net dataset](https://drive.google.com/file/d/1O9Brs9mWw9KI2jgy8Ho2yljA5uH1_UIE/view?usp=sharing)
+
+
+
 If you access our dataset, do not forget to cite the article in the [link](https://www.sciencedirect.com/science/article/abs/pii/S1361841521000402).
 
 #### Written by- <br>
